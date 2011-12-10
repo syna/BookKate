@@ -19,4 +19,15 @@
 - (NSUInteger)indexOfViewController:(BKDataViewController *)viewController;
 
 + (BKPageInfo *)getFirstPage;
++ (BKPageInfo *)getSecondPage;
++ (BKPageInfo *)getThirdPage;
++ (BKPageInfo *)getFourthPage;
++ (BKPageInfo *)getFifthPage;
++ (BKPageInfo *)getSixthPage;
++ (BKPageInfo *)getSeventhPage;
++ (BKPageInfo *)getEighthPage;
++ (BKPageInfo *)getNinthPage;
++ (BKPageInfo *)getTenthPage;
++ (BKPageInfo *)getEleventhPage;
+
 @end

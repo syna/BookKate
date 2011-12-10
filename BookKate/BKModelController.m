@@ -30,6 +30,15 @@
     if (self) {
         _pages = [NSArray arrayWithObjects:
                   [BKModelController getFirstPage], 
+                  [BKModelController getSecondPage], 
+                  [BKModelController getThirdPage], 
+                  [BKModelController getFourthPage], 
+                  [BKModelController getFifthPage],  
+                  [BKModelController getSixthPage],  
+                  [BKModelController getSeventhPage], 
+                  [BKModelController getEighthPage],  
+                  [BKModelController getTenthPage],   
+                  [BKModelController getEleventhPage], 
                   nil];
     }
     return self;
@@ -38,6 +47,76 @@
 + (BKPageInfo *)getFirstPage {
     NSString *text = @"my text";
     UIImage *img = [UIImage imageNamed:@"page0.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getSecondPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page1.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getThirdPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page2.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getFourthPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page3.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getFifthPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page4.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getSixthPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page5.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getSeventhPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page6.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getEighthPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page7.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getNinthPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page8.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getTenthPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page9.jpg"];
+    BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
+    return res;
+}
+
++ (BKPageInfo *)getEleventhPage {
+    NSString *text = @"my text";
+    UIImage *img = [UIImage imageNamed:@"page10.jpg"];
     BKPageInfo *res = [[BKPageInfo alloc] initWithText:text andImage:img];
     return res;
 }
