@@ -7,15 +7,91 @@
 //
 
 #import "BKAppDelegate.h"
+#import "BKTagUIViewController.h"
 
 @implementation BKAppDelegate
 
 @synthesize window = _window;
 
+- (id)init {
+    self = [super init];
+    if (self != nil) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"background" ofType:@"m4a"];
+        _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
+    }
+    return self;
+}
+
+- (void)initalizeRootViewController {
+    
+    _rootController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+    [_rootController setDelegate: self];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    
+    BKTagUIViewController *initViewController = [storyboard instantiateViewControllerWithIdentifier:@"ctrPage0"];
+    [initViewController setTag: @"ctrPage0"];
+    NSArray *viewControllers = [NSArray arrayWithObjects:
+                                initViewController, 
+                                nil];
+    [_rootController setViewControllers:viewControllers 
+                              direction:UIPageViewControllerNavigationDirectionForward 
+                               animated:NO 
+                             completion:NULL];
+    [_rootController setDataSource:self];
+}
+
+- (void)initalizeWindow {
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [_window setBackgroundColor: [UIColor whiteColor]];
+    [_window addSubview:_rootController.view];
+    [_window makeKeyAndVisible];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //[_newAudio play];
+    
+    [self initalizeRootViewController];
+    
+    [self initalizeWindow];
+    
     return YES;
+}
+
+- (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
+{
+    NSString *currentIdentifier = [(BKTagUIViewController *)viewController tag];
+    NSInteger index = [[currentIdentifier substringFromIndex:[currentIdentifier length] - 1] integerValue];
+    
+    if (index < 10)
+    {
+        index++;
+        NSString *nextIdetifier = [NSString stringWithFormat:@"ctrPage%d", index];
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+        BKTagUIViewController *res = [storyboard instantiateViewControllerWithIdentifier:nextIdetifier];
+        [res setTag:nextIdetifier];
+        return res;
+    }
+    return nil;
+}
+
+- (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
+{
+    NSString *currentIdentifier = [(BKTagUIViewController *)viewController tag];
+    NSInteger index = [[currentIdentifier substringFromIndex:[currentIdentifier length] - 1] integerValue];
+    
+    if (index > 0)
+    {
+        index--;
+        NSString *nextIdetifier = [NSString stringWithFormat:@"ctrPage%d", index];
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+        BKTagUIViewController *res = [storyboard instantiateViewControllerWithIdentifier:nextIdetifier];
+        [res setTag:nextIdetifier];
+        return res;
+    }
+    return nil;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

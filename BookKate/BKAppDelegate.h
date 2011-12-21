@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface BKAppDelegate : UIResponder <UIApplicationDelegate>
+@interface BKAppDelegate : UIResponder <UIApplicationDelegate, UIPageViewControllerDelegate, UIPageViewControllerDataSource> {
+@private 
+    AVAudioPlayer *_newAudio;
+    UIPageViewController *_rootController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
