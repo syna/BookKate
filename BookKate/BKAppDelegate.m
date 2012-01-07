@@ -89,6 +89,14 @@
             [res setTag:nextIdetifier];
             return res;
         }
+        /*else if (forward && index == 10)
+        {
+            NSString *nextIdetifier = @"ctrPage_0";
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+            BKTagUIViewController *res = [storyboard instantiateViewControllerWithIdentifier:nextIdetifier];
+            [res setTag:nextIdetifier];
+            return res;
+        }*/
     }
     return nil;
 }
