@@ -17,4 +17,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (UIViewController *)getNextViewController:(UIViewController *)currentViewController
+                                           : (BOOL)forward
+                                           : (int) maxCount;
+
 @end

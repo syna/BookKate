@@ -8,7 +8,7 @@
         <scene sceneID="E5J-ER-5BL">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qgr-nr-i9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage0" id="Ry2-kF-Eew" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_0" id="Ry2-kF-Eew" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2c3-cW-GUW">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -34,7 +34,7 @@
         <scene sceneID="AZd-uN-9SC">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P6d-A8-j2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage1" id="deg-p8-EoP" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_1" id="deg-p8-EoP" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iX8-yQ-Gm5">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -43,13 +43,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="7" minimumFontSize="10" id="XwO-Lt-jMT">
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" minimumFontSize="10" id="XwO-Lt-jMT">
                                 <rect key="frame" x="26" y="0.0" width="728" height="253"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.96715328467153283" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <string key="text">Катя зашла в комнату. «И как же мне это все убрать?» - сказала она недовольно. – «И вообще, когда появился весь этот бардак у меня в комнате? Я же почти не играла!» - возмутилась Катя.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <fontDescription key="fontDescription" name="BanglaSangamMN" family="Bangla Sangam MN" pointSize="34"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -61,7 +63,7 @@
         <scene sceneID="awg-kJ-87K">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGT-sq-tPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage2" id="6OK-2y-88B" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_2" id="6OK-2y-88B" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4cN-cA-Z6i">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -88,7 +90,7 @@
         <scene sceneID="OgO-ID-sOy">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cef-Fg-7Sk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage5" id="h8p-ke-S0r" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_5" id="h8p-ke-S0r" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KQj-oK-H4y">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -115,7 +117,7 @@
         <scene sceneID="BMl-R9-CUE">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w4I-ig-eBp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage6" id="p1h-pI-jmo" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_6" id="p1h-pI-jmo" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KQe-23-FXv">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -142,7 +144,7 @@
         <scene sceneID="5Mb-wg-mWD">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="33u-I6-1pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage7" id="gQe-ZB-hLa" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_7" id="gQe-ZB-hLa" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NY9-LJ-EW6">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -169,7 +171,7 @@
         <scene sceneID="zIY-E8-xfx">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M1a-MY-Dit" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage3" id="iYW-wo-2nc" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_3" id="iYW-wo-2nc" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8C3-Jt-gjJ">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -178,9 +180,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="7" minimumFontSize="10" id="Ffg-cP-uKo">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" minimumFontSize="10" id="Ffg-cP-uKo">
                                 <rect key="frame" x="26" y="0.0" width="728" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.96862745098039216" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <string key="text">«Катюша, - сказали мама с папой, - ну раз твои куклы не знают, что все надо складывать на место после игры, ты им объясни. И вы вместе все уберете».
 «Хорошо, - сказала Катя, - объясню этим неряхам, что мне и моим любимым мамочке и папочке не нравится, как они себя ведут. С чего бы начать?»</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
@@ -197,7 +200,7 @@
         <scene sceneID="dtd-8v-Xtp">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dtW-hh-Aul" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage8" id="wcb-fD-OWj" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_8" id="wcb-fD-OWj" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aAt-f0-aSl">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -224,7 +227,7 @@
         <scene sceneID="5vc-Xd-VQD">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Zy-zu-IcF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage4" id="7BF-Qb-q04" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_4" id="7BF-Qb-q04" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jj8-lz-qN2">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -251,7 +254,7 @@
         <scene sceneID="422-g5-lud">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Q8-oo-TlU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage9" id="xTv-hn-qhh" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_9" id="xTv-hn-qhh" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1C2-gG-9c3">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -277,7 +280,7 @@
         <scene sceneID="wpI-aL-M4h">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5rX-El-wK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="ctrPage10" id="S8J-Ao-U7J" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ctrPage_10" id="S8J-Ao-U7J" customClass="BKTagUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wc2-Z5-X7K">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

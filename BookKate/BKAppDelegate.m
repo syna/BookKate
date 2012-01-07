@@ -29,8 +29,8 @@
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
     
-    BKTagUIViewController *initViewController = [storyboard instantiateViewControllerWithIdentifier:@"ctrPage0"];
-    [initViewController setTag: @"ctrPage0"];
+    BKTagUIViewController *initViewController = [storyboard instantiateViewControllerWithIdentifier:@"ctrPage_0"];
+    [initViewController setTag: @"ctrPage_0"];
     NSArray *viewControllers = [NSArray arrayWithObjects:
                                 initViewController, 
                                 nil];
@@ -62,34 +62,33 @@
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
-    NSString *currentIdentifier = [(BKTagUIViewController *)viewController tag];
-    NSInteger index = [[currentIdentifier substringFromIndex:[currentIdentifier length] - 1] integerValue];
-    
-    if (index < 10)
-    {
-        index++;
-        NSString *nextIdetifier = [NSString stringWithFormat:@"ctrPage%d", index];
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-        BKTagUIViewController *res = [storyboard instantiateViewControllerWithIdentifier:nextIdetifier];
-        [res setTag:nextIdetifier];
-        return res;
-    }
-    return nil;
+    return [BKAppDelegate getNextViewController:viewController:TRUE:10];
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
 {
-    NSString *currentIdentifier = [(BKTagUIViewController *)viewController tag];
-    NSInteger index = [[currentIdentifier substringFromIndex:[currentIdentifier length] - 1] integerValue];
-    
-    if (index > 0)
+    return [BKAppDelegate getNextViewController:viewController:FALSE:10];
+}
+
++ (UIViewController *)getNextViewController:(UIViewController *)currentViewController
+                                           : (BOOL)forward
+                                           : (int) maxCount
+{
+    NSString *currentIdentifier = [(BKTagUIViewController *)currentViewController tag];
+    NSArray *arr = [currentIdentifier componentsSeparatedByString:@"_"];
+    if (arr != nil && [arr count] > 0)
     {
-        index--;
-        NSString *nextIdetifier = [NSString stringWithFormat:@"ctrPage%d", index];
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-        BKTagUIViewController *res = [storyboard instantiateViewControllerWithIdentifier:nextIdetifier];
-        [res setTag:nextIdetifier];
-        return res;
+        NSInteger index = [[arr objectAtIndex:[arr count] - 1] integerValue];
+        if ((forward ? index < 10 : index > 0))
+        {
+            if (forward) index++;
+            else index--;
+            NSString *nextIdetifier = [NSString stringWithFormat:@"ctrPage_%d", index];
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+            BKTagUIViewController *res = [storyboard instantiateViewControllerWithIdentifier:nextIdetifier];
+            [res setTag:nextIdetifier];
+            return res;
+        }
     }
     return nil;
 }
