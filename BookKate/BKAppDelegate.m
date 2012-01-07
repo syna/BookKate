@@ -13,14 +13,14 @@
 
 @synthesize window = _window;
 
-- (id)init {
+/*- (id)init {
     self = [super init];
     if (self != nil) {
         NSString *path = [[NSBundle mainBundle] pathForResource:@"background" ofType:@"m4a"];
         _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
     }
     return self;
-}
+}*/
 
 - (void)initalizeRootViewController {
     
@@ -64,6 +64,18 @@
     [self initalizeWindow];
     
     return YES;
+}
+
+- (void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed;
+{
+    if (_newAudio != nil)
+    {
+        [_newAudio stop];
+    }
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"background" ofType:@"m4a"];
+    _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
+    [_newAudio play];
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
