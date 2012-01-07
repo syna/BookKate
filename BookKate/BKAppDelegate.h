@@ -17,8 +17,12 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-+ (UIViewController *)getNextViewController:(UIViewController *)currentViewController
+- (UIViewController *)getNextViewController:(UIViewController *)currentViewController
                                            : (BOOL)forward
                                            : (int) maxCount;
+
+-(void)openFirstPage;
+
+-(void)openFirstPageHandler:(id)sender;
 
 @end

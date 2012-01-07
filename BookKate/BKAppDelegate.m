@@ -25,10 +25,17 @@
 - (void)initalizeRootViewController {
     
     _rootController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+    
     [_rootController setDelegate: self];
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    [_rootController setDataSource:self];
     
+    [self openFirstPage];
+}
+
+- (void)openFirstPage
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
     BKTagUIViewController *initViewController = [storyboard instantiateViewControllerWithIdentifier:@"ctrPage_0"];
     [initViewController setTag: @"ctrPage_0"];
     NSArray *viewControllers = [NSArray arrayWithObjects:
@@ -38,7 +45,6 @@
                               direction:UIPageViewControllerNavigationDirectionForward 
                                animated:NO 
                              completion:NULL];
-    [_rootController setDataSource:self];
 }
 
 - (void)initalizeWindow {
@@ -62,15 +68,15 @@
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
-    return [BKAppDelegate getNextViewController:viewController:TRUE:10];
+    return [self getNextViewController:viewController:TRUE:10];
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
 {
-    return [BKAppDelegate getNextViewController:viewController:FALSE:10];
+    return [self getNextViewController:viewController:FALSE:10];
 }
 
-+ (UIViewController *)getNextViewController:(UIViewController *)currentViewController
+- (UIViewController *)getNextViewController:(UIViewController *)currentViewController
                                            : (BOOL)forward
                                            : (int) maxCount
 {
@@ -79,7 +85,7 @@
     if (arr != nil && [arr count] > 0)
     {
         NSInteger index = [[arr objectAtIndex:[arr count] - 1] integerValue];
-        if ((forward ? index < 10 : index > 0))
+        if ((forward ? index < maxCount : index > 0))
         {
             if (forward) index++;
             else index--;
@@ -87,18 +93,22 @@
             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
             BKTagUIViewController *res = [storyboard instantiateViewControllerWithIdentifier:nextIdetifier];
             [res setTag:nextIdetifier];
+            
+            if (index == maxCount)
+            {
+                UIButton *btnExit = (UIButton *)[[res view] viewWithTag:1];
+                [btnExit addTarget:self action:@selector(openFirstPageHandler:) forControlEvents:UIControlEventTouchUpInside];
+            }
+            
             return res;
         }
-        /*else if (forward && index == 10)
-        {
-            NSString *nextIdetifier = @"ctrPage_0";
-            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-            BKTagUIViewController *res = [storyboard instantiateViewControllerWithIdentifier:nextIdetifier];
-            [res setTag:nextIdetifier];
-            return res;
-        }*/
     }
     return nil;
+}
+
+- (void)openFirstPageHandler:(id)sender
+{
+    [self openFirstPage];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
