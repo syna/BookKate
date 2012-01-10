@@ -25,4 +25,6 @@
 
 -(void)openFirstPageHandler:(id)sender;
 
++ (int)calculateCurrentIndex:(id)viewController;
+
 @end

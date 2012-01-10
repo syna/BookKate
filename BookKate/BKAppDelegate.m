@@ -73,7 +73,17 @@
         [_newAudio stop];
     }
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"background" ofType:@"m4a"];
+    
+    NSInteger index = [BKAppDelegate calculateCurrentIndex: [[_rootController viewControllers] objectAtIndex:0]];
+    
+    NSString *fileName = @"background";
+    NSString *fileType = @"m4a";
+    if (index == 8)
+    {
+        fileName = @"page_8";
+        fileType = @"wav";
+    }
+    NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
     _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
     [_newAudio play];
 }
@@ -88,15 +98,24 @@
     return [self getNextViewController:viewController:FALSE:10];
 }
 
++ (int)calculateCurrentIndex:(id)viewController
+{
+    NSString *currentIdentifier = [(BKTagUIViewController *)viewController tag];
+    NSArray *arr = [currentIdentifier componentsSeparatedByString:@"_"];
+    if (arr != nil && [arr count] > 0)
+    {
+        return [[arr objectAtIndex:[arr count] - 1] integerValue];
+    }
+    return -1;
+}
+
 - (UIViewController *)getNextViewController:(UIViewController *)currentViewController
                                            : (BOOL)forward
                                            : (int) maxCount
 {
-    NSString *currentIdentifier = [(BKTagUIViewController *)currentViewController tag];
-    NSArray *arr = [currentIdentifier componentsSeparatedByString:@"_"];
-    if (arr != nil && [arr count] > 0)
+    NSInteger index = [BKAppDelegate calculateCurrentIndex: currentViewController];
+    if (index > -1)
     {
-        NSInteger index = [[arr objectAtIndex:[arr count] - 1] integerValue];
         if ((forward ? index < maxCount : index > 0))
         {
             if (forward) index++;

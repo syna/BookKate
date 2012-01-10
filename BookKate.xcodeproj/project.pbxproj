@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		671737A914A27E3700C7CEB6 /* BKTagUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671737A814A27E3700C7CEB6 /* BKTagUIViewController.m */; };
+		671A227514BCD9C300214A67 /* page_8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 671A227414BCD9C300214A67 /* page_8.wav */; };
 		671DCF801493A724001AA94B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671DCF7F1493A724001AA94B /* UIKit.framework */; };
 		671DCF821493A724001AA94B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671DCF811493A724001AA94B /* Foundation.framework */; };
 		671DCF841493A724001AA94B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671DCF831493A724001AA94B /* CoreGraphics.framework */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		671737A714A27E3700C7CEB6 /* BKTagUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTagUIViewController.h; sourceTree = "<group>"; };
 		671737A814A27E3700C7CEB6 /* BKTagUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTagUIViewController.m; sourceTree = "<group>"; };
+		671A227414BCD9C300214A67 /* page_8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = page_8.wav; sourceTree = "<group>"; };
 		671DCF7B1493A724001AA94B /* BookKate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookKate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		671DCF7F1493A724001AA94B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		671DCF811493A724001AA94B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -205,6 +207,7 @@
 		671EBBE61493E7FA006FC73D /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				671A227414BCD9C300214A67 /* page_8.wav */,
 				671EBBE71493E7FA006FC73D /* background.m4a */,
 			);
 			path = Sounds;
@@ -296,6 +299,7 @@
 				67A97E291493C444004BB928 /* page10.jpg in Resources */,
 				671EBBE81493E7FA006FC73D /* background.m4a in Resources */,
 				67777E4014B8E11B005131CE /* home.png in Resources */,
+				671A227514BCD9C300214A67 /* page_8.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
