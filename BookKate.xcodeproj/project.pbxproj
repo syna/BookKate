@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6711840C14BE1D630084A756 /* page_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6711840B14BE1D630084A756 /* page_4.wav */; };
+		6711841014BE1E880084A756 /* page_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6711840E14BE1E880084A756 /* page_5.wav */; };
+		6711841114BE1E880084A756 /* page_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6711840F14BE1E880084A756 /* page_6.wav */; };
 		671737A914A27E3700C7CEB6 /* BKTagUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671737A814A27E3700C7CEB6 /* BKTagUIViewController.m */; };
 		671A227514BCD9C300214A67 /* page_8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 671A227414BCD9C300214A67 /* page_8.wav */; };
 		671DCF801493A724001AA94B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671DCF7F1493A724001AA94B /* UIKit.framework */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6711840B14BE1D630084A756 /* page_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = page_4.wav; sourceTree = "<group>"; };
+		6711840E14BE1E880084A756 /* page_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = page_5.wav; sourceTree = "<group>"; };
+		6711840F14BE1E880084A756 /* page_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = page_6.wav; sourceTree = "<group>"; };
 		671737A714A27E3700C7CEB6 /* BKTagUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTagUIViewController.h; sourceTree = "<group>"; };
 		671737A814A27E3700C7CEB6 /* BKTagUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTagUIViewController.m; sourceTree = "<group>"; };
 		671A227414BCD9C300214A67 /* page_8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = page_8.wav; sourceTree = "<group>"; };
@@ -207,6 +213,9 @@
 		671EBBE61493E7FA006FC73D /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				6711840E14BE1E880084A756 /* page_5.wav */,
+				6711840F14BE1E880084A756 /* page_6.wav */,
+				6711840B14BE1D630084A756 /* page_4.wav */,
 				671A227414BCD9C300214A67 /* page_8.wav */,
 				671EBBE71493E7FA006FC73D /* background.m4a */,
 			);
@@ -300,6 +309,9 @@
 				671EBBE81493E7FA006FC73D /* background.m4a in Resources */,
 				67777E4014B8E11B005131CE /* home.png in Resources */,
 				671A227514BCD9C300214A67 /* page_8.wav in Resources */,
+				6711840C14BE1D630084A756 /* page_4.wav in Resources */,
+				6711841014BE1E880084A756 /* page_5.wav in Resources */,
+				6711841114BE1E880084A756 /* page_6.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -78,14 +78,14 @@
     
     NSString *fileName = @"background";
     NSString *fileType = @"m4a";
-    if (index == 8)
+    if (index > 3 && index < 9 && index != 7)
     {
-        fileName = @"page_8";
+        fileName = [NSString stringWithFormat: @"page_%d", index];
         fileType = @"wav";
+        NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
+        _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
+        [_newAudio play];
     }
-    NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
-    _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
-    [_newAudio play];
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
