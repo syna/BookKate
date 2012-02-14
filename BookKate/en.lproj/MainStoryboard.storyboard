@@ -70,6 +70,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="XwO-Lt-jMT" id="cFe-0p-e5x"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1497" y="-1651"/>
@@ -105,6 +108,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="l9Q-UT-dp6" id="S1r-cP-Ngr"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="2337" y="-1651"/>
@@ -139,6 +145,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="rmp-a3-bP7" id="P7z-ps-rzf"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="673" y="-507"/>
@@ -173,6 +182,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="NCE-Y1-HMJ" id="jFZ-Pd-t26"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1513" y="-507"/>
@@ -208,6 +220,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="FSL-6w-jan" id="Lt3-Be-CxG"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="2353" y="-507"/>
@@ -244,6 +259,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="Ffg-cP-uKo" id="vdc-aJ-aLM"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="3185" y="-1651"/>
@@ -278,6 +296,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="5IM-sA-HJl" id="unh-Zp-hcl"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="3185" y="-507"/>
@@ -312,6 +333,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="jFz-hn-zZ6" id="tE6-IH-odq"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="4033" y="-1651"/>
@@ -345,6 +369,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="zp0-x2-kDA" id="iln-LX-hHH"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="4033" y="-515"/>
@@ -390,6 +417,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="Vd3-at-aC3" id="Uzy-Y8-F9t"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="681" y="637"/>
@@ -411,6 +441,9 @@
     <classes>
         <class className="BKTagUIViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BKTagUIViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textBox" candidateClass="UILabel"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -12,4 +12,30 @@
 
 @synthesize tag;
 
+@synthesize delegate;
+
+-(void)loadView
+{
+    [super loadView];
+    
+    if (textBox == nil) return;
+    
+    [textBox setUserInteractionEnabled: YES];
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] 
+                                          initWithTarget:self 
+                                          action: @selector(labelTap:)];
+    [textBox addGestureRecognizer:tapGesture];
+}
+
+- (void)labelTap:(UITapGestureRecognizer *)sender
+{
+    if ([sender state] != UIGestureRecognizerStateEnded || 
+        [self delegate] == nil) 
+    {
+        return;
+    }
+    
+    [[self delegate] clickTextHandler];
+}
+
 @end

@@ -7,7 +7,6 @@
 //
 
 #import "BKAppDelegate.h"
-#import "BKTagUIViewController.h"
 
 @implementation BKAppDelegate
 
@@ -38,6 +37,7 @@
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
     BKTagUIViewController *initViewController = [storyboard instantiateViewControllerWithIdentifier:@"ctrPage_0"];
     [initViewController setTag: @"ctrPage_0"];
+    [initViewController setDelegate:self];
     NSArray *viewControllers = [NSArray arrayWithObjects:
                                 initViewController, 
                                 nil];
@@ -63,29 +63,41 @@
     
     [self initalizeWindow];
     
+    [self startReadPage:0];
+    
     return YES;
 }
 
 - (void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed;
+{    
+    [self stopReadPage];
+    
+    [self startReadCurrentPage];
+}
+
+- (void)startReadCurrentPage
 {
-    if (_newAudio != nil)
-    {
-        [_newAudio stop];
-    }
-    
-    
     NSInteger index = [BKAppDelegate calculateCurrentIndex: [[_rootController viewControllers] objectAtIndex:0]];
-    
+    [self startReadPage:index];
+}
+
+- (void)startReadPage: (NSInteger) pageIndex
+{
     NSString *fileName = @"background";
     NSString *fileType = @"m4a";
-    //if (index > 3 && index < 9 && index != 7)
-    {
-        fileName = [NSString stringWithFormat: @"page_%d", index];
-        fileType = @"mp3";
-        NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
-        _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
-        [_newAudio play];
-    }
+    
+    fileName = [NSString stringWithFormat: @"page_%d", pageIndex];
+    fileType = @"mp3";
+    NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
+    _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
+    [_newAudio play];
+    
+}
+
+- (void)stopReadPage
+{
+    if (_newAudio != nil)
+        [_newAudio stop];
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
@@ -124,6 +136,7 @@
             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
             BKTagUIViewController *res = [storyboard instantiateViewControllerWithIdentifier:nextIdetifier];
             [res setTag:nextIdetifier];
+            [res setDelegate:self];
             
             if (index == maxCount)
             {
@@ -139,7 +152,18 @@
 
 - (void)openFirstPageHandler:(id)sender
 {
+    [self stopReadPage];
+    
     [self openFirstPage];
+    
+    [self startReadCurrentPage];
+}
+
+- (void)clickTextHandler
+{
+    [self stopReadPage];
+    
+    [self startReadCurrentPage];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -156,6 +180,7 @@
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
      */
+    [self stopReadPage];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -163,6 +188,7 @@
     /*
      Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
      */
+    [self startReadCurrentPage];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

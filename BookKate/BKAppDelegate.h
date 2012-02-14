@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "BKTagUIViewController.h"
 
-@interface BKAppDelegate : UIResponder <UIApplicationDelegate, UIPageViewControllerDelegate, UIPageViewControllerDataSource> {
+@interface BKAppDelegate : UIResponder <UIApplicationDelegate, UIPageViewControllerDelegate, UIPageViewControllerDataSource, IClickablePageDelegate> {
 @private 
     AVAudioPlayer *_newAudio;
     UIPageViewController *_rootController;
@@ -20,6 +21,11 @@
 - (UIViewController *)getNextViewController:(UIViewController *)currentViewController
                                            : (BOOL)forward
                                            : (int) maxCount;
+-(void)startReadCurrentPage;
+
+-(void)stopReadPage;
+
+-(void)startReadPage: (NSInteger) pageIndex;
 
 -(void)openFirstPage;
 
