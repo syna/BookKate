@@ -78,10 +78,10 @@
     
     NSString *fileName = @"background";
     NSString *fileType = @"m4a";
-    if (index > 3 && index < 9 && index != 7)
+    //if (index > 3 && index < 9 && index != 7)
     {
         fileName = [NSString stringWithFormat: @"page_%d", index];
-        fileType = @"wav";
+        fileType = @"mp3";
         NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
         _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
         [_newAudio play];
