@@ -29,6 +29,8 @@
     
     [_rootController setDataSource:self];
     
+    [self startMusic];
+    
     [self openFirstPage];
 }
 
@@ -83,11 +85,8 @@
 
 - (void)startReadPage: (NSInteger) pageIndex
 {
-    NSString *fileName = @"background";
-    NSString *fileType = @"m4a";
-    
-    fileName = [NSString stringWithFormat: @"page_%d", pageIndex];
-    fileType = @"mp3";
+    NSString *fileName = [NSString stringWithFormat: @"page_%d", pageIndex];
+    NSString *fileType = @"mp3";
     NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
     _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
     [_newAudio play];
@@ -98,6 +97,23 @@
 {
     if (_newAudio != nil)
         [_newAudio stop];
+}
+
+- (void)startMusic
+{
+    NSString *fileName = @"back";
+    NSString *fileType = @"mp3";
+    NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:fileType];
+    _backgroundAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
+    [_backgroundAudio setNumberOfLoops: -1];
+    [_backgroundAudio play];
+
+}
+
+- (void)stopMusic
+{
+    if (_backgroundAudio != nil)
+        [_backgroundAudio stop];
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
@@ -181,6 +197,7 @@
      If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
      */
     [self stopReadPage];
+    [self stopMusic];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -189,6 +206,7 @@
      Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
      */
     [self startReadCurrentPage];
+    [self startMusic];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

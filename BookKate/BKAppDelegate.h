@@ -13,6 +13,7 @@
 @interface BKAppDelegate : UIResponder <UIApplicationDelegate, UIPageViewControllerDelegate, UIPageViewControllerDataSource, IClickablePageDelegate> {
 @private 
     AVAudioPlayer *_newAudio;
+    AVAudioPlayer *_backgroundAudio;
     UIPageViewController *_rootController;
 }
 
@@ -32,5 +33,9 @@
 -(void)openFirstPageHandler:(id)sender;
 
 + (int)calculateCurrentIndex:(id)viewController;
+
+-(void)startMusic;
+
+-(void)stopMusic;
 
 @end
