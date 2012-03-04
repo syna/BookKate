@@ -22,37 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="16" selection-start="1470" selection-end="1486" vertical-scroll-proportion="-12.083333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index0.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../index0.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="1095" selection-end="1107" vertical-scroll-proportion="-9.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="20" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.370229">
+            <state line="48" column="17" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.6278626">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="typography.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/typography.css">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="1" selection-start="5222" selection-end="5222" vertical-scroll-proportion="-8.115385">
+            <state line="42" column="9" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-8.333333">
               <folding />
             </state>
           </provider>
@@ -61,7 +43,7 @@
       <file leaf-file-name="960.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="621" column="6" selection-start="9473" selection-end="9478" vertical-scroll-proportion="-7.5384617">
+            <state line="621" column="6" selection-start="9473" selection-end="9478" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,6 +85,7 @@
         <option value="$PROJECT_DIR$/css/test.css" />
         <option value="$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html" />
         <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -197,7 +180,7 @@
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -306,53 +289,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/base-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="1" selection-start="3300" selection-end="4383" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/header-hr.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo-header.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/buy-powerpack-banner.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/body-background.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="406" selection-end="406" vertical-scroll-proportion="0.42938933">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="418" selection-end="418" vertical-scroll-proportion="0.59923667">
+        <state line="32" column="18" selection-start="418" selection-end="418" vertical-scroll-proportion="0.59923667" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="29" selection-start="2716" selection-end="2724" vertical-scroll-proportion="0.36" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="621" column="6" selection-start="9473" selection-end="9478" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -364,46 +318,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
+    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="621" column="6" selection-start="9473" selection-end="9478" vertical-scroll-proportion="-7.5384617">
+        <state line="188" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="29" selection-start="2716" selection-end="2724" vertical-scroll-proportion="0.36">
-          <folding>
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/typography.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="1" selection-start="5222" selection-end="5222" vertical-scroll-proportion="-8.115385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../index0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="1095" selection-end="1107" vertical-scroll-proportion="-9.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="16" selection-start="1470" selection-end="1486" vertical-scroll-proportion="-12.083333">
+        <state line="42" column="9" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-8.333333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.370229">
+        <state line="48" column="17" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.6278626">
           <folding />
         </state>
       </provider>
