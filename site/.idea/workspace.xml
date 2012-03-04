@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a78dc21-18da-4a10-8267-fcb330d611c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookKate.xcodeproj/project.xcworkspace/xcuserdata/imochalov.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/BookKate.xcodeproj/project.xcworkspace/xcuserdata/imochalov.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookKate.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/BookKate.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookKate/BookKate-Info.plist" afterPath="$PROJECT_DIR$/BookKate/BookKate-Info.plist" />
-    </list>
-    <ignored path="BookKate.iws" />
+    <list default="true" id="9a64af4e-a0cb-46b4-8f01-6e4a781d366d" name="Default" comment="" />
+    <ignored path="site.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,38 +13,73 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-    <option name="REVERSE_PATCH" value="false" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="BookKate" />
+    <favorites_list name="site" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base-styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/BookKate_temp/css/base-styles.css">
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="34" selection-start="3771" selection-end="3771" vertical-scroll-proportion="0.0">
+            <state line="43" column="16" selection-start="1470" selection-end="1486" vertical-scroll-proportion="-12.083333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index0.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../index0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="23" selection-start="1095" selection-end="1107" vertical-scroll-proportion="-9.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="20" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.370229">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="typography.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/BookKate_temp/css/typography.css">
+        <entry file="file://$PROJECT_DIR$/css/typography.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+            <state line="154" column="1" selection-start="5222" selection-end="5222" vertical-scroll-proportion="-8.115385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/BookKate_temp/index.html">
+      <file leaf-file-name="960.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="139" selection-start="845" selection-end="845" vertical-scroll-proportion="0.029761905">
+            <state line="621" column="6" selection-start="9473" selection-end="9478" vertical-scroll-proportion="-7.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/text.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="8" selection-start="1038" selection-end="1061" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="188" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,10 +100,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/Desktop/nice_sites/Alfred App.html" />
-        <option value="$USER_HOME$/Desktop/BookKate_temp/css/typography.css" />
-        <option value="$USER_HOME$/Desktop/BookKate_temp/css/base-styles.css" />
-        <option value="$USER_HOME$/Desktop/BookKate_temp/index.html" />
+        <option value="$PROJECT_DIR$/css/test.css" />
+        <option value="$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -101,7 +130,7 @@
       <flattenPackages />
       <showMembers />
       <showModules />
-      <showLibraryContents />
+      <showLibraryContents ProjectPane="false" />
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
@@ -109,57 +138,71 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BookKate" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BookKate" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BookKate" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/BookKate_temp" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.BookKate - Debug">
-    <configuration default="false" name="BookKate - Debug" type="AppleRunConfiguration" factoryName="Application" temporary="true" PROJECT_NAME="BookKate" TARGET_NAME="BookKate" CONFIG_NAME="Debug" SDK_NAME="iphonesimulator5.0" ARCH_ID="Standard" DEVICE="IPAD" DEBUGGER="GDB" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
-      <envs />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="BookKate" TARGET_NAME="BookKate" CONFIG_NAME="Debug" SDK_NAME="iphonesimulator5.0" ARCH_ID="Standard" DEVICE="IPAD" DEBUGGER="GDB" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
-      <envs />
-      <method>
-        <option name="com.jetbrains.cidr.execution.BuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="com.jetbrains.cidr.execution.StopCurrentSessionBeforeRunTaskProvider$StopCurrentSessionBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.BookKate - Debug" />
-    </list>
+    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
@@ -182,29 +225,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a78dc21-18da-4a10-8267-fcb330d611c4" name="Default" comment="" />
-      <created>1329219897584</created>
-      <updated>1329219897584</updated>
+      <changelist id="9a64af4e-a0cb-46b4-8f01-6e4a781d366d" name="Default" comment="" />
+      <created>1330608086050</created>
+      <updated>1330608086050</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="670" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20178704" sideWeight="0.9310345" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -242,6 +286,7 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -261,31 +306,106 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BookKate/BKAppDelegate.m">
+    <entry file="file://$PROJECT_DIR$/css/base-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="4" selection-start="2631" selection-end="2631" vertical-scroll-proportion="0.3693182" />
+        <state line="209" column="1" selection-start="3300" selection-end="4383" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/nice_sites/Alfred App.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="85" selection-start="2255" selection-end="2277" vertical-scroll-proportion="0.35714287" />
+    <entry file="file://$PROJECT_DIR$/images/header-hr.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/BookKate_temp/index.html">
+    <entry file="file://$PROJECT_DIR$/images/logo-header.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/buy-powerpack-banner.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/body-background.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="139" selection-start="845" selection-end="845" vertical-scroll-proportion="0.029761905">
+        <state line="188" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/BookKate_temp/css/typography.css">
+    <entry file="file://$PROJECT_DIR$/css/test.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" />
+        <state line="15" column="52" selection-start="406" selection-end="406" vertical-scroll-proportion="0.42938933">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/BookKate_temp/css/base-styles.css">
+    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="34" selection-start="3771" selection-end="3771" vertical-scroll-proportion="0.0" />
+        <state line="32" column="18" selection-start="418" selection-end="418" vertical-scroll-proportion="0.59923667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/text.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="8" selection-start="1038" selection-end="1061" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="621" column="6" selection-start="9473" selection-end="9478" vertical-scroll-proportion="-7.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="29" selection-start="2716" selection-end="2724" vertical-scroll-proportion="0.36">
+          <folding>
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/typography.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="1" selection-start="5222" selection-end="5222" vertical-scroll-proportion="-8.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../index0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="1095" selection-end="1107" vertical-scroll-proportion="-9.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="16" selection-start="1470" selection-end="1486" vertical-scroll-proportion="-12.083333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="20" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.370229">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

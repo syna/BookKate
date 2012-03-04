@@ -1,0 +1,109 @@
+body {
+	background:#f2f2f2 url(../images/body-background.gif);
+	text-align:center;
+	width:100%;
+}
+#container {
+	height:100%;
+	text-align:center;
+	position:relative;
+	width:100%;
+}
+
+/* Header ================================================================*/
+#header {
+    /*background:#5c1f87 url(../images/header-background.png) no-repeat center top;*/
+    background: url(../images/header-background.png);
+    border-bottom:1px solid #300b4c;
+    color:#e7c7ff;
+    overflow:hidden; /* Clear the floated list items */
+    text-align:left;
+    position:relative;
+    width:100%;
+    min-width: 960px;
+    z-index:10;
+    /* CSS3 Properties */
+    box-shadow:0 1px 10px #3e3e3e;
+    -moz-box-shadow:-10px 1px 10px #3e3e3e;
+    -webkit-box-shadow:0 1px 10px #3e3e3e;
+}
+#header h2 {
+    color:#e7c7ff;
+    font-family:"adelle-1","adelle-2", Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+#header p,
+#header ul {
+    letter-spacing:-0.1px;
+    text-shadow:0 0 5px #000;
+}
+#header ul {
+    margin-left:20px;
+}
+#header ul li {
+    margin-bottom:9px;
+}
+#header #left-column {
+    color:#fff;
+}
+#header #left-column em {
+    color:#4bacbc;
+}
+#header #right-column em {
+    color:#fff;
+}
+#header hr {
+    background: url(../images/header-hr.png) no-repeat center;
+}
+
+/* The homepage styles =================================================================== */
+/* The powerpack button in the header has smaller text */
+.home_page #header {
+    border-bottom:1px solid #300b4c;
+    /* CSS3 Properties */
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.home_page #header .button.powerpack {
+    font-size:18px;
+    line-height:18px;
+}
+.home_page #header .button {
+    margin-bottom:5px;
+}
+.home_page #header {
+    height:700px;
+}
+.home_page #header h1 {
+    background:url(../images/logo-header.png) no-repeat top left;
+    display:block;
+    height:98px;
+    margin-left:40px;
+    text-indent:-9999px;
+    width:378px;
+}
+.home_page #header a#alfred-icon {
+    display:block;
+    height:353px;
+    margin-bottom:18px;
+    width:430px;
+}
+.home_page #header #left-column,
+.home_page #header #right-column {
+    float:left;
+    left:50%;
+    margin-top:80px;
+    position:relative;
+}
+.home_page #header #right-column {
+    margin-left:-30px;
+    padding-top:36px;
+    width:500px;
+}
+.home_page #header #left-column {
+    margin-left:-470px;
+    text-align:center;
+    width:430px;
+}
+
+
