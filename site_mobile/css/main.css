@@ -1,0 +1,115 @@
+body,
+div {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body {
+    /*background: url(../images/background.png);*/
+    font-family:Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    font-size:18px; /* reset the body type size down to a standard 12px form 16px - 0.75 * 16px = 12px */
+    color:#9d9d9d;
+    background: url('../images/background.png');
+
+}
+.title {
+    /*display: block;*/
+    text-align: center;
+    background-color: #9297b4;
+    border-bottom: 1px solid #300B4C;
+    float: left;
+    height: 24px;
+    left: 0;
+    line-height: normal;
+    list-style: none;
+    margin: 0;
+    /*padding: 0px 0 0px 0;*/
+    padding: 11px 10px 14px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 1px 5px #000000;
+    font-size: 20px;
+    color: #a9a9a9;
+    position: fixed;
+}
+
+/*.content {*/
+    /*position: relative;*/
+/*}*/
+
+.logo {
+    margin-top: 25px;
+    align: center;
+    display: block;
+    width: 100%;
+}
+
+.title h1 {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 80pt;
+}
+
+.content > p,
+.content > ul {
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+
+    color: #E7C7FF;
+    outline-color: #E7C7FF;
+    text-shadow: black 0px 0px 5px;
+}
+.content em
+{
+    color: white;
+}
+.buttons {
+    position: fixed;
+    bottom: 0px;
+    align: center;
+    /*height: 60px;*/
+    /*width: 180px;*/
+    /*margin-right: 20px;*/
+    /*margin-bottom: 20px;*/
+    width: 100%;
+    padding: 0px;
+    border-top: 1px solid #48494B;
+    background: #9297b4;
+}
+.buttons ul {
+    border: 0;
+    background: none;
+    clear: both;
+    overflow: hidden;
+}
+.buttons li {
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #48494B;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 48%;
+    float: left;
+    display: block;
+    padding: 11px 10px 14px 10px;
+    background: #9297b4;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.buttons a {
+    line-height: 16px;
+    margin: -11px -10px -14px -10px;
+    padding: 11px 10px 14px 10px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
