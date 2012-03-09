@@ -22,10 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="13" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.48473284">
+            <state line="90" column="13" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_mobile.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/BookKate_temp/site/index_mobile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="36" selection-start="198" selection-end="198" vertical-scroll-proportion="0.09">
               <folding />
             </state>
           </provider>
@@ -34,7 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="6" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-7.7083335">
+            <state line="36" column="6" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,6 +69,7 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$USER_HOME$/Desktop/BookKate_temp/site/index_mobile.html" />
       </list>
     </option>
   </component>
@@ -94,6 +104,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,12 +147,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../site/css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/BookKate_temp/site" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -279,42 +289,37 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="621" column="6" selection-start="9473" selection-end="9478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="621" column="6" selection-start="9473" selection-end="9478" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/text.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="8" selection-start="1038" selection-end="1061" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="83" column="8" selection-start="1038" selection-end="1061" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="188" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../site/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="18" selection-start="674" selection-end="733" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-7.7083335">
-          <folding />
-        </state>
+        <state line="95" column="18" selection-start="674" selection-end="733" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="13" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.48473284">
+        <state line="90" column="13" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="6" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/BookKate_temp/site/index_mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="198" selection-end="198" vertical-scroll-proportion="0.09">
           <folding />
         </state>
       </provider>

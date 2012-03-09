@@ -1,56 +1,21 @@
 body {
-    /*background: url(../images/background.png);*/
-    font-family:Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
-    font-size:18px; /* reset the body type size down to a standard 12px form 16px - 0.75 * 16px = 12px */
-    color:#9d9d9d; /* black is a bit harsh, lets set a dark grey for default text */
-    line-height:1.5; /* and give a line-height of 18px, basically 1.5x the font size for better readability */
-  /*background: #123;*/
-  /*color: #333;*/
-  /*font-size: 11px;*/
-  /*height: auto;*/
-  /*padding-bottom: 20px;*/
-    /*background:#111 no-repeat;*/
-
-    /* CSS3 Radial Gradients */
-    /*background-image:-moz-radial-gradient(center -100px 45deg, circle farthest-corner, #555 150px, #111 300px);*/
-    /*background-image: url(../images/background.png), -webkit-gradient(radial, 50% 50%, 150, 50% 50%, 900, from(#c9cbe8), to(#c0c4e4));*/
-    /*background: -webkit-gradient(radial, 50% 50%, 150, 50% 50%, 600, from(#c9cbe8), to(#000000));*/
-    /*background: url('../images/background.png'), -webkit-gradient(radial, 50% 50%, 150, 50% 50%, 600, from(#c9cbe8), to(#c0c4e4));*/
+    /*background: url('../images/background.png'), -webkit-gradient(radial, 50% 30%, 150, 50% 30%, 400, from(#c9cbe8), to(#abadcc));*/
     background: url('../images/background.png'), -webkit-gradient(radial, 50% 30%, 150, 50% 30%, 400, from(#c9cbe8), to(#abadcc));
-
+    font-family: "Comic Sans MS";
+    font-size: 14pt;
+    color:#675c9e;
 }
 
-h1 {
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 80pt;
+em {
+    color: #e774a9;
+    font-style: normal;
+}
+
+.descr {
+    background: url('../images/descr.png');
 }
 
 p, ul {
-    overflow: hidden;
-    padding: 10px 0;
-    text-align: left;
-    margin-bottom: 20px;
+    margin: 30px 30px 25px 30px;
+}
 
-    color: #E7C7FF;
-    outline-color: #E7C7FF;
-    text-shadow: black 0px 0px 5px;
-}
-em
-{
-    color: white;
-}
-.app_store_button {
-    align: center;
-    height: 60px;
-    width: 180px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-.like_button {
-    align: center;
-    height: 60px;
-    width: 60px;
-    margin-right: 20px;
-}
