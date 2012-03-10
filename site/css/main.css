@@ -7,7 +7,6 @@ body {
 
 * {
     position: relative;
-    border: 1px solid black;
 }
 
 .container {
@@ -40,17 +39,23 @@ em {
     font-style: normal;
 }
 
+.title {
+
+}
+
 .descr {
-    background: url('../images/descr.png');
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0.7)));
+    border-radius: 60px 60px 60px 60px;
+    padding: 30px 30px 30px 30px;
 }
 
 .flower {
     float: right;
-    margin-top: -60px;
+    margin-top: -40px;
 }
 
 p, ul {
-    margin: 30px 30px 25px 30px;
+    margin: 0px;
     text-shadow: 0 0 5px white;
 }
 

@@ -25,7 +25,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="18" selection-start="699" selection-end="699" vertical-scroll-proportion="0.74236643">
+            <state line="22" column="15" selection-start="388" selection-end="388" vertical-scroll-proportion="0.59923667">
               <folding />
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/test.css" />
         <option value="$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -304,7 +304,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="18" selection-start="699" selection-end="699" vertical-scroll-proportion="0.74236643">
+        <state line="22" column="15" selection-start="388" selection-end="388" vertical-scroll-proportion="0.59923667">
           <folding />
         </state>
       </provider>
