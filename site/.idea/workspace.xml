@@ -22,46 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="24" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+            <state line="48" column="18" selection-start="699" selection-end="699" vertical-scroll-proportion="0.74236643">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="16" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.854">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="960.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="22" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/text.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="8" selection-start="1038" selection-end="1061" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="188" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
+            <state line="51" column="52" selection-start="2198" selection-end="2198" vertical-scroll-proportion="-15.833333">
               <folding />
             </state>
           </provider>
@@ -85,8 +58,8 @@
         <option value="$PROJECT_DIR$/css/test.css" />
         <option value="$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -121,6 +94,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,13 +137,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -316,21 +290,21 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="22" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="16" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.854">
+        <state line="51" column="52" selection-start="2198" selection-end="2198" vertical-scroll-proportion="-15.833333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="18" selection-start="699" selection-end="699" vertical-scroll-proportion="0.74236643">
           <folding />
         </state>
       </provider>

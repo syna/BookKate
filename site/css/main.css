@@ -1,9 +1,38 @@
 body {
-    /*background: url('../images/background.png'), -webkit-gradient(radial, 50% 30%, 150, 50% 30%, 400, from(#c9cbe8), to(#abadcc));*/
     background: url('../images/background.png'), -webkit-gradient(radial, 50% 30%, 150, 50% 30%, 400, from(#c9cbe8), to(#abadcc));
     font-family: "Comic Sans MS";
     font-size: 14pt;
     color:#675c9e;
+}
+
+* {
+    position: relative;
+    border: 1px solid black;
+}
+
+.container {
+    width: 980px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.left_column {
+    float: left;
+    width: 460px;
+}
+
+.right_column {
+    float: right;
+    width: 485px;
+}
+
+.logo {
+    margin-top: 60px;
+}
+
+.sm_btn {
+    float: left;
+    margin-right: -10px;
 }
 
 em {
@@ -15,7 +44,13 @@ em {
     background: url('../images/descr.png');
 }
 
+.flower {
+    float: right;
+    margin-top: -60px;
+}
+
 p, ul {
     margin: 30px 30px 25px 30px;
+    text-shadow: 0 0 5px white;
 }
 
