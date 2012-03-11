@@ -20,7 +20,7 @@ body {
     height: 100%;
     min-height: 700px;
     overflow: visible;
-    background: -webkit-gradient(radial, 350 350, 0, 350 350, 350, color-stop(0%,rgba(255,255,255,0.4)), color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-gradient(radial, 350 350, 0, 350 350, 350, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0)));
 }
 
 .left_column {
@@ -34,19 +34,8 @@ body {
     margin-right: 30px;
 }
 
-.logo_shadow {
-    float: left;
-    height: 60px;
-    width: 450px;
-    /*background-color: red;*/
-    margin-top: 430px;
-    /*background: -webkit-gradient(radial, 240 30, 0, 240 30, 10, color-stop(0%,rgba(255,255,255,0.4)), color-stop(100%,rgba(255,255,255,0)));*/
-    background: -webkit-gradient(radial, 240 30, 0, 240 30, 30, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
-}
-
 .logo {
     float: left;
-    /*margin-top: -430px;*/
     margin-top: 60px;
 }
 
