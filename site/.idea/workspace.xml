@@ -40,15 +40,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="170" selection-start="640" selection-end="749" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -300,13 +291,6 @@
     <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="170" selection-start="640" selection-end="749" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
