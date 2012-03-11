@@ -1,18 +1,26 @@
 body {
-    background: url('../images/background.png'), -webkit-gradient(radial, 50% 30%, 150, 50% 30%, 400, from(#c9cbe8), to(#abadcc));
+    background: url('../images/background.png');
     font-family: "Comic Sans MS";
     font-size: 14pt;
     color:#675c9e;
+    height: 100%;
+    overflow: hidden;
 }
 
 * {
     position: relative;
+    /*border: 1px dotted black;*/
 }
 
 .container {
-    width: 980px;
-    margin: auto;
-    overflow: hidden;
+    width: 1010px;
+    min-width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    min-height: 700px;
+    overflow: visible;
+    background: -webkit-gradient(radial, 350 350, 0, 350 350, 350, color-stop(0%,rgba(255,255,255,0.4)), color-stop(100%,rgba(255,255,255,0)));
 }
 
 .left_column {
@@ -23,9 +31,22 @@ body {
 .right_column {
     float: right;
     width: 485px;
+    margin-right: 30px;
+}
+
+.logo_shadow {
+    float: left;
+    height: 60px;
+    width: 450px;
+    /*background-color: red;*/
+    margin-top: 430px;
+    /*background: -webkit-gradient(radial, 240 30, 0, 240 30, 10, color-stop(0%,rgba(255,255,255,0.4)), color-stop(100%,rgba(255,255,255,0)));*/
+    background: -webkit-gradient(radial, 240 30, 0, 240 30, 30, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
 }
 
 .logo {
+    float: left;
+    /*margin-top: -430px;*/
     margin-top: 60px;
 }
 
@@ -51,7 +72,8 @@ em {
 
 .flower {
     float: right;
-    margin-top: -40px;
+    margin-top: -60px;
+    margin-right: -30px;
 }
 
 p, ul {
