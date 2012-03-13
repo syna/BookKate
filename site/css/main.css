@@ -3,8 +3,8 @@ body {
     font-family: "Comic Sans MS";
     font-size: 14pt;
     color:#675c9e;
-    height: 100%;
-    overflow: hidden;
+    /*height: 100%;*/
+    /*overflow: hidden;*/
 }
 
 * {
@@ -18,9 +18,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    min-height: 700px;
+    /*min-height: 700px;*/
     overflow: visible;
-    background: -webkit-gradient(radial, 350 350, 0, 350 350, 350, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-gradient(radial, 350 350, 0, 350 350, 310, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0)));
 }
 
 .left_column {
@@ -44,6 +44,15 @@ body {
     margin-right: -10px;
 }
 
+p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: underline;
+    color:#675c9e;
+}
+
 em {
     color: #e774a9;
     font-style: normal;
@@ -57,6 +66,7 @@ em {
     background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0.7)));
     border-radius: 60px 60px 60px 60px;
     padding: 30px 30px 30px 30px;
+    text-shadow: 0 0 5px white;
 }
 
 .flower {
@@ -65,8 +75,12 @@ em {
     margin-right: -30px;
 }
 
-p, ul {
-    margin: 0px;
-    text-shadow: 0 0 5px white;
+.copyright {
+    float: left;
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    white-space:nowrap;
+    margin-bottom: 10px;
 }
 
