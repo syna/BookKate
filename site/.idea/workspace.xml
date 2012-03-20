@@ -40,19 +40,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robots.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="robots.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robots.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="44" selection-start="86" selection-end="86" vertical-scroll-proportion="0.085877866">
+            <state line="3" column="44" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="70" selection-start="777" selection-end="777" vertical-scroll-proportion="-0.625">
+            <state line="14" column="20" selection-start="603" selection-end="603" vertical-scroll-proportion="0.21">
               <folding />
             </state>
           </provider>
@@ -77,9 +77,9 @@
         <option value="$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -318,23 +318,21 @@
         <state line="6" column="1" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="70" selection-start="777" selection-end="777" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="24" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="44" selection-start="86" selection-end="86" vertical-scroll-proportion="0.085877866">
+        <state line="3" column="44" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="603" selection-end="603" vertical-scroll-proportion="0.21">
           <folding />
         </state>
       </provider>
