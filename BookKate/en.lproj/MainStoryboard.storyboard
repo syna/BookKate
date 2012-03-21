@@ -13,7 +13,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page0.jpg" id="f8Z-sc-WU6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page0.png" id="f8Z-sc-WU6">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -54,7 +54,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page1.jpg" id="D8v-KC-6ky">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page1.png" id="D8v-KC-6ky">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -93,7 +93,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page2.jpg" id="Imi-Jh-OAW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page2.png" id="Imi-Jh-OAW">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -131,7 +131,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page5.jpg" id="Nq7-1T-Vmy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page5.png" id="Nq7-1T-Vmy">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -168,7 +168,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page6.jpg" id="4CU-Id-834">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page6.png" id="4CU-Id-834">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -205,7 +205,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page7.jpg" id="VEo-LN-YgA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page7.png" id="VEo-LN-YgA">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -243,7 +243,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page3.jpg" id="7xd-uW-kqL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page3.png" id="7xd-uW-kqL">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -282,7 +282,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page8.jpg" id="4RA-FM-VME">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page8.png" id="4RA-FM-VME">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -319,7 +319,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page4.jpg" id="z6o-jw-qiU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page4.png" id="z6o-jw-qiU">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -356,7 +356,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page9.jpg" id="iFD-rS-o26">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page9.png" id="iFD-rS-o26">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -392,7 +392,7 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page10.jpg" id="ejm-aZ-17f">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page10.png" id="ejm-aZ-17f">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -434,17 +434,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="page0.jpg" width="768" height="1024"/>
-        <image name="page1.jpg" width="768" height="1024"/>
-        <image name="page10.jpg" width="768" height="1024"/>
-        <image name="page2.jpg" width="768" height="1024"/>
-        <image name="page3.jpg" width="768" height="1024"/>
-        <image name="page4.jpg" width="768" height="1024"/>
-        <image name="page5.jpg" width="768" height="1024"/>
-        <image name="page6.jpg" width="768" height="1024"/>
-        <image name="page7.jpg" width="768" height="1024"/>
-        <image name="page8.jpg" width="768" height="1024"/>
-        <image name="page9.jpg" width="768" height="1024"/>
+        <image name="page0.png" width="768" height="1024"/>
+        <image name="page1.png" width="768" height="1024"/>
+        <image name="page10.png" width="768" height="1024"/>
+        <image name="page2.png" width="768" height="1024"/>
+        <image name="page3.png" width="768" height="1024"/>
+        <image name="page4.png" width="768" height="1024"/>
+        <image name="page5.png" width="768" height="1024"/>
+        <image name="page6.png" width="768" height="1024"/>
+        <image name="page7.png" width="768" height="1024"/>
+        <image name="page8.png" width="768" height="1024"/>
+        <image name="page9.png" width="768" height="1024"/>
         <image name="title.png" width="656" height="263"/>
     </resources>
     <classes>
