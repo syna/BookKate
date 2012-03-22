@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67113995151AF966003A9668 /* page11.png in Resources */ = {isa = PBXBuildFile; fileRef = 67113994151AF966003A9668 /* page11.png */; };
+		67113998151B0739003A9668 /* page_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 67113997151B0739003A9668 /* page_11.mp3 */; };
 		671737A914A27E3700C7CEB6 /* BKTagUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671737A814A27E3700C7CEB6 /* BKTagUIViewController.m */; };
 		671DCF801493A724001AA94B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671DCF7F1493A724001AA94B /* UIKit.framework */; };
 		671DCF821493A724001AA94B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671DCF811493A724001AA94B /* Foundation.framework */; };
@@ -59,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67113994151AF966003A9668 /* page11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page11.png; sourceTree = "<group>"; };
+		67113997151B0739003A9668 /* page_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = page_11.mp3; sourceTree = "<group>"; };
 		671737A714A27E3700C7CEB6 /* BKTagUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTagUIViewController.h; sourceTree = "<group>"; };
 		671737A814A27E3700C7CEB6 /* BKTagUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTagUIViewController.m; sourceTree = "<group>"; };
 		671DCF7B1493A724001AA94B /* BookKate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookKate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,6 +214,7 @@
 		671DCFBB1493A9D9001AA94B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				67113994151AF966003A9668 /* page11.png */,
 				6762753A151A760700D6B38F /* page0.png */,
 				6762753B151A760700D6B38F /* page1.png */,
 				6762753C151A760700D6B38F /* page2.png */,
@@ -230,6 +235,7 @@
 		671EBBE61493E7FA006FC73D /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				67113997151B0739003A9668 /* page_11.mp3 */,
 				679E637914F184B700B64D7E /* back.mp3 */,
 				67AF35E114F0DFC800A45776 /* page_0.mp3 */,
 				67AF35E214F0DFC800A45776 /* page_1.mp3 */,
@@ -344,6 +350,8 @@
 				6762754D151A760700D6B38F /* page8.png in Resources */,
 				6762754E151A760700D6B38F /* page9.png in Resources */,
 				6762754F151A760700D6B38F /* page10.png in Resources */,
+				67113995151AF966003A9668 /* page11.png in Resources */,
+				67113998151B0739003A9668 /* page_11.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

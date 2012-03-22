@@ -17,12 +17,14 @@
 @interface BKTagUIViewController : UIViewController
 {
     IBOutlet UILabel *textBox;
+    IBOutlet UILabel *textBox2;
 }
 
 @property (nonatomic,retain) id tag;
 
 @property (nonatomic,retain) id<IClickablePageDelegate> delegate;
 
-- (void)labelTap:(UITapGestureRecognizer *)sender;
+-(void)attachTapHandler: (id)label;
+-(void)labelTap:(UITapGestureRecognizer *)sender;
 
 @end

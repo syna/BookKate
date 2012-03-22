@@ -8,18 +8,11 @@
 
 #import "BKAppDelegate.h"
 
+const int _MAX_PAGE_INDEX = 11;
+
 @implementation BKAppDelegate
 
 @synthesize window = _window;
-
-/*- (id)init {
-    self = [super init];
-    if (self != nil) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"background" ofType:@"m4a"];
-        _newAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
-    }
-    return self;
-}*/
 
 - (void)initalizeRootViewController {
     
@@ -77,9 +70,14 @@
     [self startReadCurrentPage];
 }
 
+- (id)getCurrentPage
+{
+    return [[_rootController viewControllers] objectAtIndex:0];
+}
+
 - (void)startReadCurrentPage
 {
-    NSInteger index = [BKAppDelegate calculateCurrentIndex: [[_rootController viewControllers] objectAtIndex:0]];
+    NSInteger index = [BKAppDelegate calculateCurrentIndex: [self getCurrentPage]];
     [self startReadPage:index];
 }
 
@@ -118,12 +116,12 @@
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
-    return [self getNextViewController:viewController:TRUE:10];
+    return [self getNextViewController:viewController:TRUE:_MAX_PAGE_INDEX];
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
 {
-    return [self getNextViewController:viewController:FALSE:10];
+    return [self getNextViewController:viewController:FALSE:_MAX_PAGE_INDEX];
 }
 
 + (int)calculateCurrentIndex:(id)viewController
@@ -144,9 +142,9 @@
     NSInteger index = [BKAppDelegate calculateCurrentIndex: currentViewController];
     if (index > -1)
     {
-        if ((forward ? index < maxCount : index > 0))
+        if (forward || index > 0)
         {
-            if (forward) index++;
+            if (forward) index = index < maxCount ? index + 1 : 0;
             else index--;
             NSString *nextIdetifier = [NSString stringWithFormat:@"ctrPage_%d", index];
             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
@@ -154,31 +152,17 @@
             [res setTag:nextIdetifier];
             [res setDelegate:self];
             
-            if (index == maxCount)
-            {
-                UIButton *btnExit = (UIButton *)[[res view] viewWithTag:1];
-                [btnExit addTarget:self action:@selector(openFirstPageHandler:) forControlEvents:UIControlEventTouchUpInside];
-            }
-            
             return res;
         }
     }
     return nil;
 }
 
-- (void)openFirstPageHandler:(id)sender
-{
-    [self stopReadPage];
-    
-    [self openFirstPage];
-    
-    [self startReadCurrentPage];
-}
-
 - (void)clickTextHandler
 {
+    NSInteger index = [BKAppDelegate calculateCurrentIndex: [self getCurrentPage]];
     [self stopReadPage];
-    
+    if (index == _MAX_PAGE_INDEX) [self openFirstPage];
     [self startReadCurrentPage];
 }
 

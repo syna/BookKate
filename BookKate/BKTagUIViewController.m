@@ -18,13 +18,19 @@
 {
     [super loadView];
     
-    if (textBox == nil) return;
+    [self attachTapHandler:textBox];
+    [self attachTapHandler:textBox2];
+}
+
+-(void)attachTapHandler: (id)label
+{
+    if (label == nil) return;
     
-    [textBox setUserInteractionEnabled: YES];
+    [label setUserInteractionEnabled: YES];
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] 
                                           initWithTarget:self 
                                           action: @selector(labelTap:)];
-    [textBox addGestureRecognizer:tapGesture];
+    [label addGestureRecognizer:tapGesture];
 }
 
 - (void)labelTap:(UITapGestureRecognizer *)sender

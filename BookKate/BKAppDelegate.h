@@ -22,6 +22,8 @@
 - (UIViewController *)getNextViewController:(UIViewController *)currentViewController
                                            : (BOOL)forward
                                            : (int) maxCount;
+-(id)getCurrentPage;
+
 -(void)startReadCurrentPage;
 
 -(void)stopReadPage;
@@ -29,8 +31,6 @@
 -(void)startReadPage: (NSInteger) pageIndex;
 
 -(void)openFirstPage;
-
--(void)openFirstPageHandler:(id)sender;
 
 + (int)calculateCurrentIndex:(id)viewController;
 

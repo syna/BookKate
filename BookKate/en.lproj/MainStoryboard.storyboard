@@ -31,7 +31,7 @@
                                 <size key="shadowOffset" width="2" height="1"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="свою комнату" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="xuN-Ew-fc6">
-                                <rect key="frame" x="263" y="245" width="413" height="98"/>
+                                <rect key="frame" x="263" y="248" width="413" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="57"/>
                                 <color key="textColor" red="0.37254901960784315" green="0.0" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
@@ -42,6 +42,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="textBox" destination="oFZ-3w-GUG" id="axP-jY-f8Y"/>
+                        <outlet property="textBox2" destination="xuN-Ew-fc6" id="YTD-BV-Oy3"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="673" y="-1651"/>
@@ -410,18 +414,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.75" colorSpace="calibratedRGB"/>
                             </view>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZXb-F5-yl7">
-                                <rect key="frame" x="559" y="842" width="164" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <state key="normal" title="КОНЕЦ">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -430,13 +422,45 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="681" y="637"/>
+            <point key="canvasLocation" x="673" y="639"/>
+        </scene>
+        <scene sceneID="IjC-F8-NYi">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yps-0A-cmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="ctrPage_11" id="iIu-uX-MJk" customClass="BKTagUIViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tAv-DO-jmN">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="page11.png" id="hGh-Hu-ua9">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Конец" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="Jua-zg-fm0">
+                                <rect key="frame" x="265" y="114" width="239" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="85"/>
+                                <color key="textColor" red="0.37254901959999998" green="0.0" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="textBox" destination="Jua-zg-fm0" id="Xra-oI-a81"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1513" y="639"/>
         </scene>
     </scenes>
     <resources>
         <image name="page0.png" width="768" height="1024"/>
         <image name="page1.png" width="768" height="1024"/>
         <image name="page10.png" width="768" height="1024"/>
+        <image name="page11.png" width="768" height="1024"/>
         <image name="page2.png" width="768" height="1024"/>
         <image name="page3.png" width="768" height="1024"/>
         <image name="page4.png" width="768" height="1024"/>
@@ -452,6 +476,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BKTagUIViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="textBox" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textBox2" candidateClass="UILabel"/>
             </relationships>
         </class>
     </classes>
