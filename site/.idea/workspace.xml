@@ -25,7 +25,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.32289627">
+            <state line="11" column="7" selection-start="238" selection-end="238" vertical-scroll-proportion="0.32289627">
               <folding />
             </state>
           </provider>
@@ -34,7 +34,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="39" selection-start="2016" selection-end="2016" vertical-scroll-proportion="-4.375">
+            <state line="56" column="11" selection-start="2709" selection-end="2709" vertical-scroll-proportion="-10.208333">
               <folding />
             </state>
           </provider>
@@ -96,6 +96,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,7 +139,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,14 +307,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="39" selection-start="2016" selection-end="2016" vertical-scroll-proportion="-4.375">
+        <state line="56" column="11" selection-start="2709" selection-end="2709" vertical-scroll-proportion="-10.208333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.32289627">
+        <state line="11" column="7" selection-start="238" selection-end="238" vertical-scroll-proportion="0.32289627">
           <folding />
         </state>
       </provider>
