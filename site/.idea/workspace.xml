@@ -22,19 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="apache.conf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apache.conf">
+      <file leaf-file-name="main_ie.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="30" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+            <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_ie.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="1" selection-start="471" selection-end="471" vertical-scroll-proportion="0.629771">
+            <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.26418787">
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="510" selection-end="510" vertical-scroll-proportion="-5.625">
+            <state line="9" column="47" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,8 +73,9 @@
         <option value="$PROJECT_DIR$/css/main_ie.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/apache.conf" />
-        <option value="$PROJECT_DIR$/main/css/main_ie.css" />
         <option value="$PROJECT_DIR$/main/index.html" />
+        <option value="$PROJECT_DIR$/main/css/main_ie.css" />
+        <option value="$PROJECT_DIR$/main/css/main.css" />
       </list>
     </option>
   </component>
@@ -109,6 +110,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,7 +157,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,21 +310,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apache.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="30" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="38" column="30" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="510" selection-end="510" vertical-scroll-proportion="-5.625">
+        <state line="9" column="47" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="471" selection-end="471" vertical-scroll-proportion="0.629771">
+        <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.26418787">
           <folding />
         </state>
       </provider>
