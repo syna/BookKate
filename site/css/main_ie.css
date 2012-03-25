@@ -67,6 +67,7 @@ em.book {
 .descr {
     background: url('../images/descr_background_ie.png') no-repeat;
     padding: 30px 30px 30px 30px;
+    text-shadow: 0 0 5px white;
 }
 
 .flower {
