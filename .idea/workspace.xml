@@ -5,8 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookKate.xcodeproj/project.xcworkspace/xcuserdata/imochalov.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/BookKate.xcodeproj/project.xcworkspace/xcuserdata/imochalov.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookKate.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/BookKate.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookKate/BookKate-Info.plist" afterPath="$PROJECT_DIR$/BookKate/BookKate-Info.plist" />
     </list>
     <ignored path="BookKate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,37 +24,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="BookKate" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="base-styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/BookKate_temp/css/base-styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="34" selection-start="3771" selection-end="3771" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="typography.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/BookKate_temp/css/typography.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/BookKate_temp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="139" selection-start="845" selection-end="845" vertical-scroll-proportion="0.029761905">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -195,7 +162,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -269,23 +236,6 @@
     <entry file="file://$USER_HOME$/Desktop/nice_sites/Alfred App.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="85" selection-start="2255" selection-end="2277" vertical-scroll-proportion="0.35714287" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/BookKate_temp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="139" selection-start="845" selection-end="845" vertical-scroll-proportion="0.029761905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/BookKate_temp/css/typography.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/BookKate_temp/css/base-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="34" selection-start="3771" selection-end="3771" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
   </component>
