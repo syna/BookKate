@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+    background: url('../images/container_background_ie.png') center no-repeat;
     width: 1010px;
     min-width: 1010px;
     margin-left: auto;
@@ -52,12 +53,15 @@ a {
 }
 
 em {
-    color: #e774a9;
+    /*color: #e774a9;*/
+    /*color: #ed1e79;*/
+    color: #f14b94;
     font-style: normal;
 }
 
 em.book {
-    color: #36b9ed;
+    /*color: #36b9ed;*/
+    color: #4295bc;
 }
 
 .title {
@@ -67,8 +71,15 @@ em.book {
 .descr {
     background: url('../images/descr_background_ie.png') no-repeat;
     padding: 30px 30px 30px 30px;
-    text-shadow: 0 0 5px white;
+    /*text-shadow: 0 0 5px white;*/
+    /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=45);*/
 }
+/*.descr p {*/
+    /*height: 9em;*/
+    /*filter: Shadow(Color=white, Direction=135, Strength=2);*/
+    /*filter: Shadow(Color=#675c9e, Direction=135, Strength=2);*/
+    /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=45);*/
+/*}*/
 
 .flower {
     float: right;
