@@ -9,6 +9,7 @@ body {
 * {
     position: relative;
     /*border: 1px dotted black;*/
+    border: 0px;
 }
 
 .container {
