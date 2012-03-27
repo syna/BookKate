@@ -31,19 +31,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.26418787">
+            <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+            <state line="23" column="58" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.69">
               <folding />
             </state>
           </provider>
@@ -73,9 +73,13 @@
         <option value="$PROJECT_DIR$/css/main_ie.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/apache.conf" />
-        <option value="$PROJECT_DIR$/main/index.html" />
         <option value="$PROJECT_DIR$/main/css/main_ie.css" />
         <option value="$PROJECT_DIR$/main/css/main.css" />
+        <option value="$PROJECT_DIR$/main/vk_widget.js" />
+        <option value="$PROJECT_DIR$/main/test_ya_share.html" />
+        <option value="$PROJECT_DIR$/main/test.html" />
+        <option value="$PROJECT_DIR$/main/scripts/metrica.js" />
+        <option value="$PROJECT_DIR$/main/index.html" />
       </list>
     </option>
   </component>
@@ -110,7 +114,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,12 +154,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,23 +317,19 @@
         <state line="38" column="30" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.26418787">
+        <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="58" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.69">
           <folding />
         </state>
       </provider>
