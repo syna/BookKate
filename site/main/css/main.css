@@ -18,11 +18,11 @@ body {
     height: 100%;
     min-height: 684px;
     overflow: visible;
-    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
     background: -webkit-gradient(radial, 350 350, 0, 350 350, 310, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0)));
     background: -webkit-radial-gradient(350 350, ellipse cover, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%); /* IE10+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 70%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 70%); /* IE10+ */
     background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%); /* W3C */
 }
 

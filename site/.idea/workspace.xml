@@ -25,7 +25,7 @@
       <file leaf-file-name="main_ie.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="1" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.91412216">
+            <state line="148" column="1" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.59923667">
               <folding />
             </state>
           </provider>
@@ -34,7 +34,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="1" selection-start="3656" selection-end="3862" vertical-scroll-proportion="0.0">
+            <state line="24" column="106" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,8 +78,8 @@
         <option value="$PROJECT_DIR$/main/test.html" />
         <option value="$PROJECT_DIR$/main/scripts/metrica.js" />
         <option value="$PROJECT_DIR$/main/index.html" />
-        <option value="$PROJECT_DIR$/main/css/main.css" />
         <option value="$PROJECT_DIR$/main/css/main_ie.css" />
+        <option value="$PROJECT_DIR$/main/css/main.css" />
       </list>
     </option>
   </component>
@@ -301,14 +301,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="1" selection-start="3656" selection-end="3862" vertical-scroll-proportion="0.0">
+        <state line="24" column="106" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="1" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.91412216">
+        <state line="148" column="1" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.59923667">
           <folding />
         </state>
       </provider>
