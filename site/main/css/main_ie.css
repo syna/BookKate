@@ -42,6 +42,62 @@ body {
     margin-right: -10px;
 }
 
+.facebook_button {
+    background: url('../images/facebook.png');
+    display: block;
+    width: 93px;
+    height: 93px;
+}
+
+.facebook_button:hover {
+    background: url('../images/facebook_hover.png');
+    display: block;
+}
+
+.vkontakte_button {
+    background: url('../images/vkontakte.png');
+    display: block;
+    width: 93px;
+    height: 93px;
+}
+
+.vkontakte_button:hover {
+    background: url('../images/vkontakte_hover.png');
+}
+
+.twitter_button {
+    background: url('../images/twitter.png');
+    display: block;
+    width: 93px;
+    height: 93px;
+}
+
+.twitter_button:hover {
+    background: url('../images/twitter_hover.png');
+}
+
+.classmates_button {
+    background: url('../images/classmates.png');
+    display: block;
+    width: 93px;
+    height: 93px;
+}
+
+.classmates_button:hover {
+    background: url('../images/classmates_hover.png');
+}
+
+.livejournal_button {
+    background: url('../images/livejournal.png');
+    display: block;
+    width: 93px;
+    height: 93px;
+}
+
+.livejournal_button:hover {
+    background: url('../images/livejournal_hover.png');
+}
+
 p {
     margin: 0px;
 }

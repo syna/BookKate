@@ -22,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main_ie.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main_ie.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+            <state line="40" column="16" selection-start="659" selection-end="659" vertical-scroll-proportion="0.28435114">
               <folding />
             </state>
           </provider>
@@ -34,16 +34,16 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+            <state line="9" column="16" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="58" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.69">
+            <state line="42" column="48" selection-start="2215" selection-end="2215" vertical-scroll-proportion="-11.458333">
               <folding />
             </state>
           </provider>
@@ -73,13 +73,13 @@
         <option value="$PROJECT_DIR$/css/main_ie.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/apache.conf" />
-        <option value="$PROJECT_DIR$/main/css/main_ie.css" />
-        <option value="$PROJECT_DIR$/main/css/main.css" />
         <option value="$PROJECT_DIR$/main/vk_widget.js" />
         <option value="$PROJECT_DIR$/main/test_ya_share.html" />
         <option value="$PROJECT_DIR$/main/test.html" />
         <option value="$PROJECT_DIR$/main/scripts/metrica.js" />
         <option value="$PROJECT_DIR$/main/index.html" />
+        <option value="$PROJECT_DIR$/main/css/main.css" />
+        <option value="$PROJECT_DIR$/main/css/main_ie.css" />
       </list>
     </option>
   </component>
@@ -287,49 +287,28 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="418" selection-end="418" vertical-scroll-proportion="0.59923667" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="29" selection-start="2716" selection-end="2724" vertical-scroll-proportion="0.36" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/text.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="8" selection-start="1038" selection-end="1061" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/css/960.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apache.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="30" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
+    <entry file="file://$PROJECT_DIR$/main/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" />
+        <state line="42" column="48" selection-start="2215" selection-end="2215" vertical-scroll-proportion="-11.458333">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" />
+        <state line="9" column="16" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/index.html">
+    <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="58" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.69">
+        <state line="40" column="16" selection-start="659" selection-end="659" vertical-scroll-proportion="0.28435114">
           <folding />
         </state>
       </provider>
