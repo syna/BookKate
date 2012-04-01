@@ -137,6 +137,17 @@ em.book {
     margin-right: 60px;
 }
 
+.appstore_button {
+    background: url('../images/appstore.png');
+    display: block;
+    width: 210px;
+    height: 99px;
+}
+
+.appstore_button:hover {
+    background: url('../images/appstore_hover.png');
+}
+
 .copyright {
     float: left;
     text-align: center;
