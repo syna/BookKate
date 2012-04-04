@@ -22,10 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="73" selection-start="932" selection-end="932" vertical-scroll-proportion="0.28">
+            <state line="21" column="50" selection-start="1122" selection-end="1122" vertical-scroll-proportion="-13.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="17" selection-start="148" selection-end="148" vertical-scroll-proportion="0.11741683">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_ie.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="127" column="9" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -46,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/test.css" />
         <option value="$USER_HOME$/Downloads/nathansmith-960-Grid-System-b0c5b98-1/code/demo.html" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/robots.txt" />
@@ -59,9 +76,10 @@
         <option value="$PROJECT_DIR$/main/test_ya_share.html" />
         <option value="$PROJECT_DIR$/main/test.html" />
         <option value="$PROJECT_DIR$/main/scripts/metrica.js" />
-        <option value="$PROJECT_DIR$/main/css/main_ie.css" />
-        <option value="$PROJECT_DIR$/main/css/main.css" />
         <option value="$PROJECT_DIR$/main/index.html" />
+        <option value="$PROJECT_DIR$/main/ttt.html" />
+        <option value="$PROJECT_DIR$/main/css/main.css" />
+        <option value="$PROJECT_DIR$/main/css/main_ie.css" />
       </list>
     </option>
   </component>
@@ -292,19 +310,23 @@
         <state line="38" column="30" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="50" selection-start="1122" selection-end="1122" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/css/main_ie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="1" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.0" />
+        <state line="127" column="9" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="42" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.0645792" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="73" selection-start="932" selection-end="932" vertical-scroll-proportion="0.28">
+        <state line="4" column="17" selection-start="148" selection-end="148" vertical-scroll-proportion="0.11741683">
           <folding />
         </state>
       </provider>
