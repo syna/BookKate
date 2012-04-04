@@ -136,6 +136,7 @@ em.book {
     border-radius: 60px 60px 60px 60px;
     padding: 30px 30px 30px 30px;
     text-shadow: 0 0 5px white;
+    line-height: 1.45;
 }
 
 .flower {
